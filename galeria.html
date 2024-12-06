@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - MarvinCamacho.com</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .gallery {
+            padding: 40px;
+            text-align: center;
+            background-color: #222;
+        }
+
+        .gallery h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+
+        .back-button {
+            margin-top: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #555;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galería de Fotos</h1>
+    </header>
+    <section class="gallery">
+        <h2>Explora nuestras imágenes</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/gruponacion/56A2DWINCFHX5IZFHMGVT67QDM.jpg" alt="Foto 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://semanariouniversidad.com/wp-content/uploads/2023/02/camacho-en-noviembre.jpg" alt="Foto 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://pbs.twimg.com/media/EawQNrgWsAAJ_te?format=jpg&name=large" alt="Foto 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://cultura.cervantes.es/SSAA/ImgSharepoint.ashx?UniqueId=0a1d086a-0b80-48dd-b592-d82c9ac75b72" alt="Foto 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://ticotimes.net/wp-content/uploads/2015/06/150608Marvin-Camacho-2.jpg" alt="Foto 5">
+            </div>
+        </div>
+        <a href="index.html" class="back-button">Volver a la Página Principal</a>
+    </section>
+</body>
+</html>

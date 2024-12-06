@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarvinCamacho.com</title>
+    <style>
+        /* Estilo general */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Encabezado */
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Contenedor del título */
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .title-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        /* Barra de navegación */
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        .navbar ul li {
+            position: relative;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        /* Contenedor principal */
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .column-left, .column-right {
+            flex: 1;
+        }
+
+        .column-left h2 {
+            font-size: 2rem;
+        }
+
+        .column-left p {
+            font-size: 1.2rem;
+        }
+
+        .column-right img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiknVopRPGyySoXa62HvUzEK5bZQq3rRLSABpXT0jC4LWeaXQ2z6YhGqI54FlPBffjb1o&usqp=CAU" alt="Foto" class="title-image">
+            <h1>Marvin Camacho</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Página Principal</a></li>
+                <li><a href="#option2">Proyectos</a></li>
+                <li><a href="#option3">Descargas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="main-content">
+        <div class="column-left">
+            <h2>¿Quien es Marvin Camacho?</h2>
+            <p>vacio</p>
+        </div>
+        <div class="column-right">
+            <img src="https://accionsocial.ucr.ac.cr/sites/default/files/imagenes/publicaciones/camacho.jpg" alt="Imagen principal">
+        </div>
+    </section>
+</body>
+</html>
